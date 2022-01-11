@@ -1,3 +1,13 @@
 const answer = prompt('Сколько фильмов вы уже посмотрели?', '');
 let numberOfFilms = answer;
-console.log(numberOfFilms);
+
+let personalMovieDB = {
+  count: answer,
+  movies: {},
+  actors: {},
+  genres: [],
+  privat: false
+};
+
+
+console.log(personalMovieDB.count);
